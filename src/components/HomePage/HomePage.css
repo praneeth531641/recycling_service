@@ -1,0 +1,89 @@
+/* HomePage.css */
+
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    height: 20%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-menu {
+    width: 100%;
+}
+
+.mobile-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.desktop-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.desktop-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    z-index: 1;
+}
+
+.mobile-menu.open .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    flex: 1;
+    /* This allows the content area to take the remaining space */
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    padding: 20px;
+    /* Add some padding around the content */
+}
+
+.footer {
+    height: 10%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

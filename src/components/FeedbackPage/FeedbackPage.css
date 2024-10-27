@@ -1,0 +1,29 @@
+.feedback-container {
+    background-color: #f8f9fa;
+    /* Light background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    /* Rounded corners for a softer look */
+}
+
+.feedback-container h1 {
+    color: #28a745;
+    /* Green color for heading */
+}
+
+.feedback-container .btn-outline-success {
+    border-color: #28a745;
+    /* Green border for the back button */
+}
+
+.feedback-container .card {
+    background-color: white;
+    /* White background for card */
+    border: 1px solid #28a745;
+    /* Green border for the card */
+}
+
+.feedback-container .card-body {
+    padding: 20px;
+    /* Padding for card content */
+}

@@ -1,0 +1,21 @@
+.auth-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-success {
+    color: #28a745;
+    /* Bootstrap success color */
+}
+
+.card {
+    border: none;
+    /* Remove card border */
+}
+
+.card-body {
+    padding: 2rem;
+    /* Add padding inside the card */
+}
