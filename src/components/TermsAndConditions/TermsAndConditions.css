@@ -1,0 +1,30 @@
+.terms-container {
+    background-color: #f0f9f1;
+    /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #333;
+    border: 1px solid #28a745;
+    /* Green border */
+}
+
+.terms-container h1,
+.terms-container h2 {
+    color: #28a745;
+    /* Green text for headers */
+}
+
+.terms-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.back-button {
+    margin-bottom: 20px;
+    color: #28a745;
+    border-color: #28a745;
+    display: flex;
+    align-items: center;
+}

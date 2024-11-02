@@ -1,0 +1,46 @@
+/* PrivacyPolicy.css */
+
+.policy-container {
+    background-color: #e8f5e9;
+    /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #28a745;
+    /* Green border */
+}
+
+.policy-container h1 {
+    color: #28a745;
+    /* Green color for main heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.policy-container h2 {
+    color: #218838;
+    /* Slightly darker green for subheadings */
+    margin-top: 15px;
+}
+
+.policy-container p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    color: #28a745;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}

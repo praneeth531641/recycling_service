@@ -102,6 +102,9 @@ const AuthPage = () => {
                                             {errors.password && <div className="text-danger">{errors.password}</div>}
                                         </Form.Group>
                                         <Button variant="success" type="submit" className="w-100 mb-3">Login</Button>
+                                        <div className="text-center">
+                                            <Button variant="link" onClick={() => navigate('/forgot-password')}>Forgot Password?</Button>
+                                        </div>
                                     </Form>
                                 </Tab>
                                 <Tab eventKey="register" title="Register">

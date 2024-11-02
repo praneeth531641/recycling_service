@@ -1,0 +1,71 @@
+/* BookingForm.css */
+
+.booking-form-container {
+    background-color: #e8f5e9;
+    /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #28a745;
+    /* Green border */
+}
+
+.booking-form-container h2 {
+    color: #28a745;
+    /* Green heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    color: #28a745;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.booking-form label {
+    display: block;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="tel"],
+.booking-form input[type="date"],
+.booking-form input[type="number"],
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.booking-form .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.booking-form .submit-button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
